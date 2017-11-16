@@ -1,0 +1,10 @@
+.confirHidden{
+	display: none;
+}
+.confirDisplay{
+	 position: absolute;
+	width: 100%;
+    top: 20px;
+    z-index: 10;
+	display: block;
+}
