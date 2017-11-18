@@ -1,0 +1,44 @@
+.row{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+.info{
+	flex-grow: 1;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.content2{
+	font-size: 25px;
+	margin-left: 10px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.desc{
+	flex-grow: 1;
+	min-width: 100px;
+}
+.dat{
+	color: black;
+}
+.strong{
+	font-weight: bold;
+	color: #233142;
+}
+.desc{
+	color: black;
+	text-align: justify;
+}
+.comprar{
+	border: none;
+	font-size: 25px;
+	background-color: #233142;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5), -1px -1px 3px rgba(0,0,0,0.5);
+
+}
+#video{
+	margin-top: 50px;
+}

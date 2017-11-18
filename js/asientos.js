@@ -15,8 +15,9 @@ function setSelect(idUsuario, idPeli){
 		seleccionados=cookie.split(",");
 
 		if(seleccionados[0]!=idPeli){
+			deletecookie("asientos"+idUsuario);
 			setcookie("asientos"+idUsuario, idPeli, "", "","",false);
-			return getcookie("asientos");
+			return idPeli;
 
 		}else{
 			$(document).ready(function(){

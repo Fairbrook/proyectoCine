@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?hga9z3');
-  src:  url('fonts/icomoon.eot?hga9z3#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?hga9z3') format('truetype'),
-    url('fonts/icomoon.woff?hga9z3') format('woff'),
-    url('fonts/icomoon.svg?hga9z3#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?4m00fj');
+  src:  url('fonts/icomoon.eot?4m00fj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4m00fj') format('truetype'),
+    url('fonts/icomoon.woff?4m00fj') format('woff'),
+    url('fonts/icomoon.svg?4m00fj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-ticket:before {
+  content: "\e905";
+}
+.icon-home:before {
+  content: "\e904";
+}
+.icon-key:before {
+  content: "\e903";
+}
+.icon-user:before {
+  content: "\e902";
+}
+.icon-exit:before {
+  content: "\e901";
+}
 .icon-event_seat:before {
   content: "\e900";
 }

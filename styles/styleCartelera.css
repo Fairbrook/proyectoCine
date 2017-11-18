@@ -1,0 +1,41 @@
+.peliculas{
+	margin: auto;
+	max-width: 1000px;
+
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content: center;
+}
+.flayer img{
+	transition: all .1s linear;
+}
+.flayer img:hover{
+	transform: scale(1.1,1.1);
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.8), -1px -1px 6px rgba(0,0,0,0.8);	
+}
+.flayer{
+	padding: 0px;
+	margin: 0px;
+
+	display: flex;
+}
+.reloj{
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+#contreloj{
+	position: absolute;
+	right: 0px;
+	width: 550px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.3), -1px -1px 3px rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width: 800px){
+	.peliculas{
+		width: 100%;
+	}
+}

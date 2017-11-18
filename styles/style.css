@@ -1,0 +1,71 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: /*rgb(55, 53, 58)*/white;
+	padding-top: 100px;
+	color: white;
+}
+.flayer{
+	width: 200px;
+	height: 268px;
+}
+.content{
+	width: 100%;
+	position: absolute;
+
+}
+#header{
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: /*rgba(255, 255, 255, 0.9)*/#264162;
+	font-size: 25px;
+	color: white;
+	position: fixed;
+	top: 0px; 
+	left: 0px; 
+	z-index: 1;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+#header a{
+	text-decoration: none;
+	color: white;
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.5), -1px -1px 4px rgba(0,0,0,0.5);
+	padding: 5px;
+}
+
+.nav1{
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+}
+.nav2{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+#closeSession{
+	margin-left: 20px;
+	margin-right: 10px;
+	
+}
+.flayer img{
+	width: 200px;
+	max-height: 268px;
+	margin: 0px;
+}
+
+@media screen and (max-width: 474px){
+.content{
+	flex-flow: column;
+}
+}

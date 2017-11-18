@@ -20,7 +20,7 @@ if(isset($_GET['id'])){
 		var select="";
 		$(document).ready(function(){
 			value=$("#user").val();
-			peli=$(".content").attr("id");
+			peli=$(".pelicula").attr("id");
 			select=setSelect(value, peli);
 		});
 
