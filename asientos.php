@@ -10,7 +10,9 @@ if(isset($_GET['id'])){
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Seleccionar asientos</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./resources/GlyphIcons/style.css">
 	<link rel="stylesheet" type="text/css" href="./styles/style.css">
 	<link rel="stylesheet" type="text/css" href="./styles/styleAsientos.css">
@@ -132,7 +134,7 @@ if(isset($_GET['id'])){
 		<div class="cont1">
 		<div id="confirmBoletos">
 			<h3 class="strong">Comprar boletos</h3>
-			<div class="row">
+			<div class="row1">
 				<div class="flayer">
 					<img src=<?php echo $pelicula['imgUrl']?> class="imgFull">
 				</div>
@@ -164,3 +166,4 @@ if(isset($_GET['id'])){
 	</div>
 </body>
 </html>
+<?php mysqli_close($connect);?>

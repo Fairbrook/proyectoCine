@@ -68,11 +68,14 @@
 		align-items: center;
 	}
 	#sala{
+		grid-gap: 0px;
 		font-size: 80%;
+		min-width: 100%;
 	}
 }
 @media screen and (max-width: 386px){
 	#sala{
+		grid-gap: 0px;
 		font-size: 70%;
 	}
 }

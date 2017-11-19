@@ -11,6 +11,8 @@ if(mysqli_num_rows($consulta)>0){
 <html>
 <head>
 	<title>Descripcion</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./styles/style.css">
 	<link rel="stylesheet" type="text/css" href="./styles/styleDesc.css">
 	<link rel="stylesheet" type="text/css" href="./resources/GlyphIcons/style.css">
@@ -57,9 +59,10 @@ if(mysqli_num_rows($consulta)>0){
 			</div>
 
 			<div id="video">
-				<iframe width="560" height="315" src=<?php echo $result['videoUrl']?> frameborder="0" allowfullscreen></iframe>
+				<iframe class="video" src=<?php echo $result['videoUrl']?> frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
 </body>
 </html>
+<?php mysqli_close($connect);?>

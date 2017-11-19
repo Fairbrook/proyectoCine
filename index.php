@@ -1,7 +1,8 @@
 <html>
 <head>
 	<title>Ingresar</title>
-	
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./styles/style.css">
 	<link rel="stylesheet" type="text/css" href="./styles/styleIndex.css">
 	<link rel="stylesheet" type="text/css" href="./resources/GlyphIcons/style.css">

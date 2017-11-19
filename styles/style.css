@@ -98,6 +98,9 @@ body{
 	flex-flow: column;
 	justify-content: center;
 }
+body{
+	padding-top: 150px;
+}
 .nav1{
 	justify-content: center;
 }

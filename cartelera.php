@@ -7,6 +7,8 @@ if(!isset($_SESSION['user']))header("Location: index.php");
 <html>
 <head>
 	<title>Cartelera</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./styles/style.css">
 	<link rel="stylesheet" type="text/css" href="./styles/styleCartelera.css">
 	<link rel="stylesheet" type="text/css" href="./resources/GlyphIcons/style.css">
