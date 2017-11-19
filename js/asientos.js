@@ -22,7 +22,7 @@ function setSelect(idUsuario, idPeli){
 		}else{
 			$(document).ready(function(){
 				for (var i = seleccionados.length - 1; i >= 1; i--) {
-					$("#"+seleccionados[i]).css("color","#FF0");
+					$("#"+seleccionados[i]).css("color","#bf12c4");
 					$("#"+seleccionados[i]).data("status",1);
 				}
 			})
@@ -41,7 +41,7 @@ function setSelect(idUsuario, idPeli){
 function changeSelect(select, asiento, idUsuario){
 	if($(asiento).data("status")){
 		if($(asiento).data("status")==0){
-			$(asiento).css("color","#FF0");
+			$(asiento).css("color","#bf12c4");
 			$(asiento).data("status",1);
 			select+=","+$(asiento).attr("id");
 			setcookie("asientos"+idUsuario, select, "", "","",false);
@@ -54,7 +54,7 @@ function changeSelect(select, asiento, idUsuario){
 			return select;
 		}
 	}else{
-		$(asiento).css("color","#FF0");
+		$(asiento).css("color","#bf12c4");
 		$(asiento).data("status",1);
 		select+=","+$(asiento).attr("id");
 		setcookie("asientos"+idUsuario, select, "", "","",false);

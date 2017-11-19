@@ -1,0 +1,78 @@
+
+.pelicula{
+	text-align: center;
+}
+.asiento{
+	font-size: 5em;
+}
+.estado1{
+	color: #0d8d8d;
+}
+#sala{
+	max-width: 550px;
+	width: 100%;
+	display: grid;
+  	grid-template-columns: repeat(5, 1fr);
+  	grid-gap: 1em;
+  	margin: auto;
+}
+.row{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.txt{
+	flex-grow: 1;
+	text-align: left;
+	margin-left: 10px;
+}
+.row-res{
+	display: grid;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-gap: 1em;	
+}
+#ocupado{
+	width: 20px;
+	height: 20px;
+	background-color: #0d8d8d;
+}
+#disponible{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+}
+#seleccionado{
+	width: 20px;
+	height: 20px;
+	background-color: #bf12c4;
+}
+#tipo{
+	font-size: 2em;
+	text-align: center;
+
+	flex-grow: 1;
+}
+#aux{
+	flex-grow: 9;
+}
+
+@media screen and (max-width: 750px){
+	#aux{
+		flex-grow: 1;
+	}
+	.row-res{
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	#sala{
+		font-size: 80%;
+	}
+}
+@media screen and (max-width: 386px){
+	#sala{
+		font-size: 70%;
+	}
+}

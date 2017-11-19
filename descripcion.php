@@ -44,14 +44,14 @@ if(mysqli_num_rows($consulta)>0){
 				<div class="info">	
 					<div class="dat"><span class="strong">Nombre: </span><?php echo $result['nombre']?> </div>
 					<div class="dat"><span class="strong">Director: </span><?php echo $result['director']?> </div>
-					<div class="dat"><span class="strong">Duracion: </span><?php echo $result['duracion']?> </div>
+					<div class="dat"><span class="strong">Duracion: </span><?php echo $result['duracion']?> min </div>
 					<div class="dat"><span class="strong">Hora funcion: </span><?php echo $result['hora']?> </div>
 					<div class="desc">	
 						<span class="strong">Descripción: </span>
 						<?php echo $result['descripcion']?> 
 					</div>
 <div style="text-align: center;">
-			<button class="comprar icon-ticket" id=<?php echo $_GET['id']; ?> > Comprar boletos</button>
+			<button class="boton1 comprar icon-ticket" id=<?php echo $_GET['id']; ?> > Comprar boletos</button>
 		</div>
 				</div>
 			</div>

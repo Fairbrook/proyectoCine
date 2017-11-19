@@ -8,7 +8,7 @@ body{
 	width: 70%;
 	max-width: 550px;
 	text-align: center;
-	background-color: rgba(55, 53, 58, 0.88);
+	background-color: rgba(38, 65, 98, 0.88);
 	padding: 15px;
 	border-radius: 10px;
 }
@@ -67,6 +67,11 @@ body{
 	font-size: 1.5em;
 	padding: 2px;
 	border: none;
+	transition: all .1s linear;
+}
+.botonLogIn:hover{
+	transform: scale(1.1,1.1);
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.5), -1px -1px 4px rgba(0,0,0,0.5);
 }
 @media screen and (max-width: 776px){
 	.ingresar{
