@@ -119,7 +119,7 @@ if(isset($_GET['id'])){
 				</div>
 				<div class="row">
 					<div id="ocupado"></div>
-					<div class="txt">Opcupado</div>
+					<div class="txt">Ocupado</div>
 				</div>
 				<div class="row">
 					<div id="seleccionado"></div> 
